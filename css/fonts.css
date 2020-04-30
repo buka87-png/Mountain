@@ -1,0 +1,59 @@
+﻿/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/Roboto/RobotoRegular.eot");
+	src: url("../fonts/Roboto/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Roboto/RobotoRegular.woff") format("woff"),
+	url("../fonts/Roboto/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "RobotoLight";
+	src: url("../fonts/Roboto/RobotoLight.eot");
+	src: url("../fonts/Roboto/RobotoLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Roboto/RobotoLight.woff") format("woff"),
+	url("../fonts/Roboto/RobotoLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+	font-family: "RobotoBold";
+	src: url("../fonts/Roboto/RobotoBold.eot");
+	src: url("../fonts/Roboto/RobotoBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Roboto/RobotoBold.woff") format("woff"),
+	url("../fonts/Roboto/RobotoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "Oswald-Bold"; */
+@font-face {
+	font-family: "Oswald-Bold";
+	src: url("../fonts/Oswald/Oswald-Bold.ttf")format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Oswald-Light"; */
+@font-face {
+	font-family: "Oswald-Light";
+	src: url("../fonts/Oswald/Oswald-Light.ttf")format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Oswald-Medium"; */
+@font-face {
+	font-family: "Oswald-Medium";
+	src: url("../fonts/Oswald/Oswald-Medium.ttf")format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Oswald-Regular"; */
+@font-face {
+	font-family: "Oswald-Regular";
+	src: url("../fonts/Oswald/Oswald-Regular.ttf")format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

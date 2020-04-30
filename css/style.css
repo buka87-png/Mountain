@@ -1,0 +1,124 @@
+﻿body {
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*.................
+HEADER
+.................*/
+
+.header {
+  background-image: url('../img/header-bg.jpg');
+  width: 1350px;
+  height: 650px;
+}
+.for_flex  {
+  display: flex;
+}
+.logo {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.nav ul {
+  margin-top: 40px;
+  margin-left: 80px;
+  list-style: none;
+  display: flex;
+}
+.nav li {
+  margin-right: 30px;
+}
+.nav a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FCFCFC;
+  cursor: pointer;  
+}
+.phone p {
+  margin-top: 40px;
+  margin-left: 250px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FCFCFC;
+}
+.vector {
+  background-color: #DCDCDC;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: 150px;
+  top: 35px;
+  border-radius: 50%;
+}
+.vector-2 {
+  background-color: #DCDCDC;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  right: 90px;
+  top: 35px;
+  border-radius: 50%;
+}
+.vector img, .vector-2 img {
+  padding: 10px 10px;
+}
+.header h1 {
+  font-family: "Oswald-Bold";
+  font-style: normal;
+  font-size: 98px;
+  line-height: 145px;
+  color: #FCFCFC;
+  text-align: center;
+  margin-top: 140px;
+}
+input {
+  position: absolute;
+  width: 170px;
+  height: 45px;
+  left: 596px;
+  top: 390px;
+  border: 2px solid #FCFCFC;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FCFCFC;
+}
+/*.................
+ARTILE
+.................*/
+.article h1 {
+  font-family: "Oswald-Bold";
+  font-style: normal;
+  font-size: 52px;
+  line-height: 115%;
+  color: #061B28;
+  margin-left: 100px;
+  margin-top: 140px;
+}
+.article p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #061B28;
+  margin-left: 100px;
+}
+.article img {
+  position: absolute;
+  width: 815px;
+  height: 375px;
+  left: 530px;
+  top: 880px;
+}
