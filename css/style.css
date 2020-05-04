@@ -80,11 +80,8 @@ HEADER
   margin-top: 140px;
 }
 input {
-  position: absolute;
   width: 170px;
   height: 45px;
-  left: 596px;
-  top: 390px;
   border: 2px solid #FCFCFC;
   background-color: transparent;
   box-sizing: border-box;
@@ -93,7 +90,12 @@ input {
   font-size: 16px;
   line-height: 19px;
   color: #FCFCFC;
+  cursor: pointer;
 }
+.center {
+  text-align: center;
+}
+
 /*.................
 ARTILE
 .................*/
@@ -257,4 +259,184 @@ ARTILE 2
 .arrow_left img, .arrow_right img{
   margin-top: 12px;
   margin-left: 10px;
+}
+/*.................
+SECTION
+.................*/
+.section {
+  background-image: url('../img/map-1.jpg');
+  width: 1350px;
+  height: 757px;
+  margin-top: 150px;
+}
+.section h1 {
+  font-family: "Oswald-Medium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 115%;
+  color: #FCFCFC;
+  text-align: center;
+  padding-top: 80px;
+}
+.section h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  color: #FCFCFC;
+}
+.table {
+  display: table;
+  border: none;
+  width: 830px;
+  margin: 40px auto;
+  border-collapse: collapse; 
+}
+.table-tr {
+	 display: table-row;
+}
+.table-td {
+	display: table-cell;	
+	width: 25%;
+  text-align: center;
+  border-bottom: 1px solid #45545E;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  color: #FCFCFC;
+  padding: 25px;
+}
+.item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #A7AEB4;
+  padding: 5px;
+}
+
+/*.................
+SECTION 2
+.................*/
+
+.section-2 {
+  margin-top: 100px;
+}
+.section-2 h1 {
+  font-family: "Oswald-Medium";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 115%;
+  color: #061B28;
+  text-align: center;
+}
+.news, .blog {
+  display: flex;
+  flex-direction: column;
+}
+.news {
+  width: 400px;
+  margin-left: 100px;
+  margin-right: 70px;
+}
+.blog {
+  width: 700px;
+}
+.black-block {
+  background-color: #061B28;
+  cursor: pointer;
+}
+.black-block .data {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #7E8386;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.black-block .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #FCFCFC;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.white-block {
+  cursor: pointer;
+}
+.white-block .data {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #626F77;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.white-block .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  color: #061B28;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.orange_button {
+  width: 400px;
+  height: 50px;
+  background-color: #EC5118;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FCFCFC;
+  cursor: pointer;
+}
+.orange {
+  margin-top: 20px;
+}
+.blog_flexbox {
+  display: flex;
+}
+.data-blog {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #626F77;
+  margin-top: 40px;
+}
+.title-blog {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 140%;
+  color: #061B28;
+  margin-top: 0px;
+}
+.blog p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #061B28;
 }
