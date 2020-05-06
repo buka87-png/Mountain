@@ -96,6 +96,7 @@ input {
   text-align: center;
 }
 
+
 /*.................
 ARTILE
 .................*/
@@ -439,4 +440,153 @@ SECTION 2
   font-size: 16px;
   line-height: 150%;
   color: #061B28;
+}
+/*.................
+SECTION 3
+.................*/
+
+.section-3 {
+  margin-top: 100px;
+}
+.forma {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 690px;
+  background: #061B28;
+}
+.clouds {
+  width: 50%;
+  height: 690px;
+  background-image: url('../img/form-img.jpg');
+}
+.forma h1 {
+  font-family: "Oswald-Medium";
+  font-style: normal;
+  font-size: 52px;
+  line-height: 115%;
+  color: #FCFCFC;
+  margin-left: 100px;
+  margin-top: 60px;
+}
+.forma p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FCFCFC;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.help {
+  border: none;
+  border-bottom: 1px solid #45545E;
+  width: 500px;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #7E8386;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.left {
+  margin-left: 100px;
+  width: 500px;
+  margin-top: 30px;
+  border: none;
+}
+.forma span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FCFCFC;
+  margin-left: 100px;
+}
+/*.................
+ASIDE
+.................*/
+.aside {
+  margin-top: 100px;
+}
+.map {
+  width: 600px;
+  height: 457px;
+  background-image: url('../img/map-2.png');
+  margin-left: 100px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+.contact h1 {
+  font-family: "Oswald-Regular";
+  font-style: normal;
+  font-size: 52px;
+  line-height: 115%;
+  color: #061B28;
+  margin-top: -10px;
+}
+.contact p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #061B28;
+  
+}
+.top {
+  margin-top: -20px;
+}
+.contact span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 140%;
+  color: #061B28;
+}
+.for_icon {
+  display: flex;
+}
+.for_icon img {
+  margin-right: 30px;
+  cursor: pointer;
+}
+/*.................
+FOOTER
+.................*/
+.footer {
+  display: flex;
+  background: #061B28;
+  height: 120px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.footer img {
+  width: 99px;
+  height: 21px;
+  margin-top: 50px;
+}
+.footer p {
+  margin-top: 50px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FCFCFC;
+}
+.for_left {
+  margin-left: 100px;
+}
+.for_right {
+  margin-right: 100px;
 }
